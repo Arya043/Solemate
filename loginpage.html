@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS\login2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+ </head>
+ <body>
+         <div class="divlink" >
+            <li><a class="alink" href="example_homepage.html">Home</a></li>
+            <li><a class="alink" href="example_homepage.html#about_section">About</a></li>
+            <li><a class="alink" href="contact.html">Contact</a></li>
+            <li><a class="alink" href="Shoes.html">Shoes</a></li>
+            <li><a class="alink" href="#">Shop</a></li>
+            <li class="loginlink" ><a href="loginpage.html" class="alink" target="_top">Login</a></li>
+            <li class="register"><a href="register.html" class="alink"`>Register</a></li>
+        </div>
+    <form action="" id="loginForm">
+        <h1 class="Login">Login</h1>
+        <div class="inputbox">
+         <input type="text" id="username" placeholder="Username" required > 
+         <i class='bx bxs-user'></i> 
+        </div>
+
+        <div class="inputbox">
+           <input type="password" id="password" placeholder="Password" required>
+           <i class='bx bxs-lock'></i>
+        </div>
+
+        <div class="read">
+            <input  type="checkbox" class="checkbox">
+            <label>Remember me </label>
+            <a class="a" href="#"> Forgot Password?</a>
+        </div>
+
+        <div class="button">
+            <button type="button" value="submit">Login</button>
+        </div>
+
+        <div class="link">
+         <label>I don't Have account?<a href="register.html" id="loginLink"> Register</a></label>
+        </div>
+         
+    </form>
+    <script src="JS/login.js"></script>
+  </body>
+</html>

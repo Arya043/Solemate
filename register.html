@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="CSS\register.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="divlink" >
+        <li><a class="alink" href="example_homepage.html">Home</a></li>
+        <li><a class="alink" href="example_homepage.html#about_section">About</a></li>
+        <li><a class="alink" href="contact.html">Contact</a></li>
+        <li><a class="alink" href="Shoes.html">Shoes</a></li>
+        <li><a class="alink" href="#">Shop</a></li>
+        <li class="loginlink" ><a href="loginpage.html" class="alink" target="_top">Login</a></li>
+        <li class="register"><a href="register.html" class="alink"`>Register</a></li>
+    </div>
+    <form>
+        <h1 class="Register">Register</h1>
+        <div class="name-row">
+            <div class="inputbox half-width">
+                <input type="text" placeholder="First Name" required>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="inputbox half-width">
+                <input type="text" placeholder="Last Name" required>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+        <div class="inputbox">
+            <input type="email" placeholder="Email" required>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="inputbox">
+            <input type="tel" placeholder="Phone Number">
+            <i class="fa-solid fa-phone"></i>
+        </div>
+        <div class="inputbox">
+            <input type="date" placeholder="Date of Birth">
+            <i class="fa-solid fa-calendar"></i>
+        </div>
+        <div class="inputbox">
+            <input type="password" placeholder="Password" required>
+            <i class="fa-solid fa-lock"></i>
+        </div>
+        <div class="inputbox">
+            <input type="password" placeholder="Confirm Password" required>
+            <i class="fa-solid fa-lock"></i>
+        </div>
+        <div class="read">
+            <input type="checkbox" class="checkbox" required>
+            <label>I agree to the terms and conditions</label>
+        </div>
+        <button type="submit">Register</button>
+        <div class="link">
+            Already have an account? <a href="loginpage.html" id="loginLink" >Login here</a>
+        </div>
+    </form>
+    <script src="JS\linkanimetion.js"></script>
+</body>
+</html>
