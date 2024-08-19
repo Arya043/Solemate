@@ -309,5 +309,125 @@ button:hover {
     margin-top: 40px;
 }
 
+@media screen and (max-width: 480px) {
+    body {
+        background-size: 300% 300%;
+        font-size: 14px;
+    }
 
+    .menu-icon {
+        display: block;
+        font-size: 24px;
+        color: #FFD700;
+        cursor: pointer;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 1002;
+        transition: all 1.3s ease;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 8px;
+        border-radius: 5px;
+    }
 
+    .menu-icon:hover {
+        transform: scale(1.1);
+    }
+
+    .menu-icon.active {
+        transform: rotate(180deg);
+    }
+
+    .ul1 {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: -70%;
+        width: 40%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding-top: 60px;
+        transition: right 1.5s ease-out;
+    }
+
+    .ul1.show {
+        display: block;
+        right: 0;
+    }
+
+    .ul1.show li {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .ul1.show li:nth-child(1) { transition-delay: 0.1s; }
+    .ul1.show li:nth-child(2) { transition-delay: 0.2s; }
+    .ul1.show li:nth-child(3) { transition-delay: 0.3s; }
+
+    .ul1 li {
+        display: block;
+        margin: 20px 0;
+        text-align: center;
+        font-size: 18px;
+        opacity: 0;
+        transform: translateX(100%);
+        transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    }
+
+    .login {
+        margin-left: 0;
+    }
+
+    .contactUS {
+        width: 95%;
+        margin: 80px auto 30px;
+        padding: 15px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .contact, .informetion {
+        width: 70%;
+        height: fit-content;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    .contact h3, .informetion h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .contact p, #infocontact li, ol li {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    input, textarea#message {
+        width: 100%;
+        margin-left: 0;
+        font-size: 14px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    #Name, #LastName, #Email, #Subject {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        margin-left: 0;
+        font-size: 16px;
+        padding: 12px;
+        margin-top: 20px;
+    }
+
+    #problem {
+        font-size: 14px;
+        margin-top: 15px;
+        text-align: center;
+    }
+}

@@ -390,6 +390,9 @@ p {
     .login {
         margin-left: 0;
     }
+    .Home{
+        margin-left: 0px;
+    }
 
     #info {
         width: 85%;
