@@ -53,28 +53,35 @@ body {
     }
 }
 
-.divlink{
-    margin-left: 50px;
-    margin-top: 15px;
+li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid #FFD700;
+    color: #F0F8FF;
+    margin-top: 10px;
 }
 
-li {
- display: inline-block;
- margin-right: 20px;
- padding: 10px 15px;
- font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- font-size: 25px;
- transition: all 0.3s ease;
- border-bottom: 2px solid #FFD700;
- color: #ffffff;
- margin-top: 30px;
- cursor: pointer;
- text-decoration: none;
+.divlink{
+    margin-top: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: black;
+    z-index: 1000;
+    margin-top: 0px;
+}
+.Home {
+    margin-left: 20px;
 }
 
 .loginlink{
- margin-left: 400px;
- color: yellow;
+ margin-left: 450px;
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -101,7 +108,7 @@ form {
     border-radius: 20px;
     width: 400px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    margin: 90px auto 0 auto;;
+    margin: 150px auto 0 auto;
 
 }
 

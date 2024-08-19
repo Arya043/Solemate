@@ -47,6 +47,7 @@ body::before {
 }
 
 /*Style for the list*/
+/*Style for the list*/
 li {
     display: inline-block;
     margin-right: 20px;
@@ -56,8 +57,22 @@ li {
     transition: all 0.3s ease;
     border-bottom: 2px solid #FFD700;
     color: #F0F8FF;
+    margin-top: 10px;
 }
-ul{position: fixed;}
+ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: black;
+    z-index: 1000;
+    margin-top: 0px;
+}
+
+.Home{
+    margin-left: 20px;
+}
 
 /*login class*/  
 .login {

@@ -54,8 +54,15 @@ body::before {
 }
  
  .divlink{
-       margin-left: 50px;
        margin-top: 15px;
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       padding: 10px 0;
+       background-color: black;
+       z-index: 1000;
+       margin-top: 0px;
  }
 
  li {
@@ -66,14 +73,15 @@ body::before {
     font-size: 25px;
     transition: all 0.3s ease;
     border-bottom: 2px solid #FFD700;
-    margin-top: 30px;
-    
-
+    color: #F0F8FF;
+    margin-top: 10px;
+}
+.Home {
+    margin-left: 20px;
 }
 
 .loginlink{
-    margin-left: 400px;
-    color: yellow;
+    margin-left: 450px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }

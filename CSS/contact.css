@@ -46,7 +46,7 @@ body::before {
 }
 
 .contactUS{
-    margin: 50px auto;
+    margin: 100px auto;
     background-color: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(10px);
     width: 1100px;
@@ -57,6 +57,10 @@ body::before {
     align-items: center;
     transition: all 1.0s ease;
     cursor: pointer;
+}
+
+.Home{
+    margin-left: 20px;
 }
 
 .contactUS:hover{
@@ -98,7 +102,7 @@ body::before {
 }
 
 /*Style for the list*/
-ul li {
+.ul1 li {
     display: inline-block;
     margin-right: 20px;
     padding: 10px 15px;
@@ -107,6 +111,17 @@ ul li {
     transition: all 0.3s ease;
     border-bottom: 2px solid #FFD700;
     color: #F0F8FF;
+    margin-top: 10px;
+}
+.ul1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: black;
+    z-index: 1000;
+    margin-top: 0px;
 }
 
 /*login class*/  

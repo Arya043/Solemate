@@ -55,14 +55,26 @@ li {
     transition: all 0.3s ease;
     border-bottom: 2px solid #FFD700;
     color: #F0F8FF;
+    margin-top: 10px;
 }
-ul{
+ul {
     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: black;
+    z-index: 1000;
+    margin-top: 0px;
 }
+
 
 /*login class*/  
 .login {
     margin-left: 450px;
+}
+.Home {
+    margin-left: 20px;
 }
 
 /*Style for the link*/
