@@ -5,13 +5,15 @@
  }
  
  body {
-     min-height: 100vh;
-     background-size: 400% 400%;
-     animation: gradientBG 15s ease infinite;
-     min-height: 100vh;
-     font-family: 'Poppins', sans-serif;
-     position: relative;
-     min-width: 320px;
+    min-height: 100vh;
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
 
  /* Add background images */
@@ -60,10 +62,11 @@ body::before {
        left: 0;
        width: 100%;
        padding: 10px 0;
-       background-color: black;
        z-index: 1000;
        margin-top: 0px;
        box-shadow: 0 0 12px yellow;
+       background-color: rgba(0, 0, 0, 0.15);
+       backdrop-filter: blur(50px);
 
  }
 
@@ -78,6 +81,7 @@ body::before {
     color: #F0F8FF;
     margin-top: 10px;
 }
+
 .Home {
     margin-left: 20px;
 }
@@ -103,16 +107,18 @@ li:hover {
 }
  
  form {
-    background-color: rgba(0, 0, 0, 0.15);
+     background-color: rgba(0, 0, 0, 0.15);
      backdrop-filter: blur(10px);
      padding: 40px;
      border-radius: 20px;
      width: 350px;
      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-     margin: 100px auto 0 auto;
      width: 90%;
-    max-width: 350px;
-    min-width: 280px;
+     max-width: 350px;
+     min-width: 280px;
+     justify-content: center;
+     align-items: center;
+     position:fixed
  }
  
  .Login {

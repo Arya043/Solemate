@@ -47,7 +47,6 @@ body::before {
 }
 
 /*Style for the list*/
-/*Style for the list*/
 li {
     display: inline-block;
     margin-right: 20px;
@@ -65,7 +64,8 @@ ul {
     left: 0;
     width: 100%;
     padding: 10px 0;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(50px);
     z-index: 1000;
     margin-top: 0px;
     box-shadow: 0 0 12px yellow;

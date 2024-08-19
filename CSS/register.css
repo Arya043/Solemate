@@ -11,6 +11,7 @@ body {
     animation: gradient 15s ease infinite;
     justify-content: center;
     align-items: center;
+    display: flex;
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
 }
@@ -72,7 +73,8 @@ li {
     left: 0;
     width: 100%;
     padding: 10px 0;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(50px);
     z-index: 1000;
     margin-top: 0px;
     box-shadow: 0 0 12px yellow;
@@ -109,7 +111,7 @@ form {
     border-radius: 20px;
     width: 400px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    margin: 150px auto 0 auto;
+    margin-bottom: -50px;
 
 }
 
