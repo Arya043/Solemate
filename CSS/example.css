@@ -339,7 +339,7 @@ p {
             right: 15px;
             z-index: 1002;
             transition: all 1.3s ease;
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: rgb(27, 26, 26);
             padding: 8px;
             border-radius: 5px;
         }
@@ -354,7 +354,7 @@ p {
             right: -70%;
             width: 70%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.9);
+            background-color: rgb(27, 26, 26);
             padding-top: 60px;
             transition: right 0.5s ease-out;
         }
