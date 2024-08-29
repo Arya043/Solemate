@@ -64,9 +64,8 @@ body::before {
        padding: 10px 0;
        z-index: 1000;
        margin-top: 0px;
-       box-shadow: 0 0 12px yellow;
-       background-color: rgba(0, 0, 0, 0.15);
        backdrop-filter: blur(50px);
+       border-bottom:#FFD700 solid 2px;
 
  }
 

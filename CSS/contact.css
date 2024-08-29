@@ -123,7 +123,8 @@ body::before {
     backdrop-filter: blur(50px);
     z-index: 1000;
     margin-top: 0px;
-    box-shadow: 0 0 12px yellow;
+    border-bottom:#FFD700 solid 2px;
+
 }
 
 /*login class*/  

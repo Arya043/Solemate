@@ -63,10 +63,12 @@ ul {
     left: 0;
     width: 100%;
     padding: 10px 0;
-    background-color:black;
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(50px);
     z-index: 1000;
     margin-top: 0px;
-    box-shadow: 0 0 12px yellow;
+    border-bottom:#FFD700 solid 2px;
+
 }
 
 
@@ -339,7 +341,7 @@ p {
             right: 15px;
             z-index: 1002;
             transition: all 1.3s ease;
-            background-color: rgb(27, 26, 26);
+            background-color: rgba(0, 0, 0, 0.9);
             padding: 8px;
             border-radius: 5px;
         }
@@ -354,7 +356,7 @@ p {
             right: -70%;
             width: 70%;
             height: 100%;
-            background-color: rgb(27, 26, 26);
+            background-color: rgba(0, 0, 0, 0.9);
             padding-top: 60px;
             transition: right 0.5s ease-out;
         }
