@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const messageTextarea = document.getElementById('message');
 
     sendButton.addEventListener('click', function(e) {
+        
         e.preventDefault();
 
         const formData = {
