@@ -104,13 +104,9 @@ li:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 250px 100px 100px 100px;
-    background-color: transparent;
-    backdrop-filter: blur(10px);
+    margin: 100px 100px 100px 100px;
     padding: 0px 100px 50px;
-    border-radius: 18px;
-    border: 2px solid white;
-    max-height: fit-content;
+    max-height: 600px;
 }
 
 .headAU {
