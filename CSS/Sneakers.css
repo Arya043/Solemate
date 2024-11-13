@@ -30,25 +30,26 @@ body::before {
 .paragraphs p {
     margin: 15px 0;
     line-height: 1.6;
-    color: #333;
+    color: #f8f1f1;
     font-size: 16px;
 }
 
 .intro {
     font-weight: 500;
-    border-left: 3px solid #333;
+    border-left: 3px solid #f4f1f1;
     padding-left: 15px;
 }
 
 .quality {
-    background: #f9f9f9;
-    padding: 10px;
+    background: #000000;
+    padding: 5px;
     border-radius: 4px;
 }
 
 .promise {
     font-style: italic;
     color: #666;
+    font-size: 12px;
 }
 
 
