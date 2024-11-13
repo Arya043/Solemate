@@ -22,6 +22,9 @@ body::before {
     transition: background-image 4s ease-in-out;
 }
 
+/*List of type of product*/
+
+
 /* keyfreames for backgroundes*/   
 @keyframes backgroundSlideshow {
     0%, 20% {
@@ -109,7 +112,7 @@ li:hover {
 .Topproduct{
     background-color: transparent;
     backdrop-filter: blur(10px);
-    display: flex;
+    
     width: 300px;
     height: 400px;
     margin-left: 50px;
@@ -213,5 +216,13 @@ li:hover {
     padding: 20px;
     margin: 20px;
     color: #F0F8FF;
+}
+
+.Topproduct li{
+    font-size: 18px;
+    display: list-item;
+    text-transform: uppercase;
+    border-bottom: none;
+    
 }
 
