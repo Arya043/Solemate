@@ -176,6 +176,8 @@ li:hover {
     right: 10px;
 }
 
+
+
 @media screen and (max-width: 480px) {
     body {
         background-size: 300% 300%;
