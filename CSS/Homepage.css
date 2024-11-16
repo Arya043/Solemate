@@ -19,6 +19,7 @@ body::before {
     animation: backgroundSlideshow 25s ease-in-out infinite;
     z-index: -1;
     transition: background-image 4s ease-in-out;
+    
 }
 
 /* keyfreames for backgroundes*/   
